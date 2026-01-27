@@ -11,12 +11,13 @@ body{
 
 .line{
     width: 100vw;
+    display: flex;
+    justify-content: center;
 }
   
 .leftSide, .rightSide{
     width: 50vw;
     overflow: hidden;
-    display: inline-block;
 }
   
 .leftSide{
