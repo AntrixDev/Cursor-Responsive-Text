@@ -9,3 +9,23 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.lSside, .rSide {
+  width: 50vw;
+  overflow: hidden;
+  display: inline-block;
+}
+span {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 10vw;
+}
+
+.lSide {
+  color: pink;
+  transform: skew(0deg, -15deg);
+}
+.rSide {
+  color: black;
+  transform: skew(0deg, 15deg);
+}
